@@ -1,0 +1,10 @@
+body{
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid orange;
+  min-height: 1000px;
+  padding: 20px;
+}
+table,caption,th,td{
+  border: 1px solid orange; 
+}

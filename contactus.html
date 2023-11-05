@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Abhijit Majumder">
+  <meta name="description" content="This is the Contactus page of Taco Shop">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactus: Taco Shop</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/#aboutLTS">About LTS</a></li>
+        <li><a href="/#ourmenu">Our Menu</a></li>
+        <li><a href="storehours.html">Store Hours</a></li>
+      </ul>
+    </nav>
+    <figure>
+      <img src="images/tacos_close_up_400x260.png" alt="Tacos Closeup Picture">
+      <figcaption>Little Taco Shop Tacos</figcaption>
+    </figure>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <h2>Our Contact Form</h2>
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Send Us A Message</legend><br>
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" placeholder="your first name" required><br><br>
+          <label for="lastName">Last Name</label>
+          <input type="text" name="lastName" id="lastName" placeholder="your last name" required><br><br>
+          <label for="userEmail">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="email" name="userEmail" id="userEmail" placeholder="your email" required><br><br>
+          <label for="userMassage">Your Message</label><br>
+          <textarea name="userMassage" id="userMassage" placeholder="Type your message here" cols="30" rows="10" required></textarea><br><br>
+        </fieldset><br>&nbsp;
+        <button type="submit">Send</button>&nbsp;
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+    <section>
+      <h2>Our Location</h2>
+      <address>555 Taco Temptation Lane, Suit T <br>Kansas City, Mobile: 55555-5555<br>Phone:&nbsp;<a href="tel:+5555555555">555-555-5555</a></address>
+      <p><a href="/contactus.html">Back to Top</a></p>
+    </section>
+  </main>
+  <hr>
+  <footer>
+    <p>Copyright &copy; The Little Taco Shop</p>
+  </footer>
+</body>
+</html>
